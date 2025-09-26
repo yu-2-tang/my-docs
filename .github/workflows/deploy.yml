@@ -22,7 +22,7 @@ jobs:
 
       - name: 安装MkDocs及主题
         run: |
-          pip install mkdocs-material
+          pip install mkdocs mkdocs-material
 
       - name: 构建静态文档
         run: |
